@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/107eabb82d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Subtract</title>
+</head>
+
+<body>
+
+  <audio id="correct">
+    <source src="correct.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="wrong">
+    <source src="wrong.mp3" type="audio/mpeg">
+  </audio>
+
+  <header>
+    <div class="container">
+      <div class="nav">
+        <a href="index.html"><h2><span><i class="fa-solid fa-square-root-variable" aria-hidden="true"></i></span> XISAABTA CARUURTA</h2></a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Kudar</a></li>
+            <li class="current"><a href="subtract.html">Kajar</a></li>
+            <li><a href="multiply.html">Kudhufo</a></li>
+            <li><a href="divide.html">Uqeybi</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrapper">
+    <div class="equation">
+      <h1  id="num1" style="color:#22C55E">1</h1>
+      <h1 style="color: #FE4A49;">-</h1>
+      <h1  id="num2" style="color: #2AB7CA">2</h1>
+      <h1  style="color: #F86624">=</h1>
+      <h1  style="color: gray">?</h1>
+    </div>
+    <div class="answer-options">
+      <div class="options" style="background-color: #22C55E;">
+        <h1 id="option1">1</h1>
+      </div>
+      <div class="options" style="background-color: #FE4A49;">
+        <h1 id="option2">2</h1>
+      </div>
+      <div class="options" style="background-color: #2AB7CA;">
+        <h1 id="option3">3</h1>
+      </div>
+    </div>
+</div>
+
+  <script src="subtract.js"></script>
+</body>
+
+</html>
