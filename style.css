@@ -99,11 +99,21 @@ a {
 }
 
 @media(max-width:768px) {
+  header{
+    height: 24vh;
+  }
   .wrapper {
+    height: 76vh;
     grid-template-columns: 1fr;
     background-color: red;
   }
-
+  .equation{
+    height: 90%;
+  }
+  .equation h1 {
+    display: inline;
+    padding: 1000px;
+  }
   .answer-options {
     display: flex;
     /* background-color: #22C55E; */
