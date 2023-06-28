@@ -98,6 +98,21 @@ a{
 }
 
 @media(max-width:768px){
+  .wrapper{
+    grid-template-columns: 1fr;
+    background-color: red;
+  }
+  .answer-options{
+    display: flex;
+    /* background-color: #22C55E; */
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 10px 0px 10px;
+  }
+  .options{
+    padding: 10px 30px;
+    margin: 0;
+  }
   .nav h2{
     font-size: 1.5rem;
     float: none;
@@ -131,8 +146,3 @@ a{
   }
 
 }
-
-
-
-
-
