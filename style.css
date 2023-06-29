@@ -129,10 +129,10 @@ a {
     padding: 10px;
   }
   .answer-options {
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
-    width: 100%;
     font-size: 36px;
     margin: 0;
     margin-top: 10px;
@@ -142,7 +142,9 @@ a {
   }
 
   .answer-options h1 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 18px 0;
     margin: 0;
   }
