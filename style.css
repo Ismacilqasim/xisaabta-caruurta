@@ -3,6 +3,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -20,7 +21,6 @@ header {
 }
 
 .logo {
-  background-color: aqua;
   width: fit-content;
   overflow: hidden;
   color: #fff;
@@ -33,7 +33,6 @@ header {
 }
 
 nav {
-  background-color: aquamarine;
   width: fit-content;
   display: flex;
   justify-content: right;
@@ -104,39 +103,43 @@ a {
   header{
     height: fit-content;
     width: 100%;
-    padding: 0;
+    padding: 10px 0;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .logo {
-    background-color: aqua;
-  }
   .wrapper {
+    height: fit-content;
     display: flex;
     flex-direction: column;
-    height: 300px;
+    align-items: center;
+    padding: 10px 0;
     background-color: red;
   }
   .equation{
-    height: 80%;
+    width: 95%;
+    height: 300px;
+    margin: 0;
   }
   .equation h1 {
-    display: inline;
+    font-size: 80px;
     padding: 10px;
   }
   .answer-options {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: 10px 10px 0px 10px;
+    width: 100%;
+    font-size: 100px;
+    margin: 0;
+    margin-top: 20px;
+    gap: 15px;
+    background-color: #E6E6EA;
   }
 
   .answer-options h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 50px;
+    width: 90%;
     margin: 0;
   }
 
