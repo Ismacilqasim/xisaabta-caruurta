@@ -103,10 +103,13 @@ a {
   header{
     height: fit-content;
     width: 100%;
-    padding: 20px 0;
+    padding: 25px 0;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .logo{
+    margin-bottom: 10px;
   }
   .wrapper {
     height: fit-content;
@@ -118,7 +121,7 @@ a {
   .equation{
     text-align: center;
     width: 95%;
-    height: 230px;
+    height: 200px;
     margin: 0;
   }
   .equation h1 {
