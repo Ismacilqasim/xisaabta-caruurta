@@ -85,11 +85,11 @@ a {
 }
 
 .answer-options {
-  font-size: 5.2vw;
+  font-size: 8vw;
   margin-right: 10px;
 }
 
-.answer-options .options {
+.answer-options .options{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,7 +135,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
-    font-size: 36px;
+    font-size: 50px;
     margin: 0;
     margin-top: 20px;
     padding: 0 10px;
