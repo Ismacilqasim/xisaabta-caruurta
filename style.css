@@ -79,7 +79,7 @@ a {
   margin: 10px 10px 0px 10px;
 }
 
-.equation .options {
+.equation h1 {
   display: inline;
   padding: 20px;
 }
@@ -90,7 +90,9 @@ a {
 }
 
 .answer-options .options {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   border-radius: 3px;
   margin-top: 10px;
@@ -142,9 +144,6 @@ a {
   }
 
   .answer-options .options {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 18px 0;
     margin: 0;
   }
