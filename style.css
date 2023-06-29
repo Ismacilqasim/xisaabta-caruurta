@@ -108,6 +108,9 @@ a {
     align-items: center;
     justify-content: center;
   }
+  .logo {
+    background-color: aqua;
+  }
   .wrapper {
     height: 76vh;
     grid-template-columns: 1fr;
