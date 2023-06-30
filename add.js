@@ -1,12 +1,14 @@
 const option1 = document.getElementById("option1"),
       option2 = document.getElementById("option2"),
       option3 = document.getElementById("option3"),
-      gameMusic = document.getElementById("game-music")
+      gameMusic = document.getElementById("game-music"),
       correct = document.getElementById("correct"),
       wrong = document.getElementById("wrong");
 var answer = 0;
 
-gameMusic.play();
+document.addEventListener("click", ()=>{
+  gameMusic.play()
+})
 
 function generate_equation(){ 
   var num1 = Math.floor(Math.random() * 11),
@@ -57,7 +59,8 @@ option1.addEventListener("click", function(){
       generate_equation();
     }
     else{
-      wrong.play();
+      gameMusic.play();
+      // wrong.play();
     }
   });
   
