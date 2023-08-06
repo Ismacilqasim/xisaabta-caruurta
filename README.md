@@ -1,1 +1,1 @@
-# xisaabta-caruurta - Somali Fun game
+# xisaabta-caruurta - Somali Funny game
